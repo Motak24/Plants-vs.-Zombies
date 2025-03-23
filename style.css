@@ -1,64 +1,4 @@
-<<<<<<< HEAD
-.header{
-    background: url(./img/HeaderBack.png);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px;
-}
-.headerBlock{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.headerSubTitle{
-    text-shadow:
-    -4px -4px 0 black,  
-     4px -4px 0 black,  
-    -4px  4px 0 black,  
-     4px  4px 0 black,  
-    -4px  0px 0 black,  
-     4px  0px 0 black,  
-     0px -4px 0 black,  
-     0px  4px 0 black;
-     color: #C6C6BB;
-    text-transform: uppercase;
-    font-size: 40px;
-    font-weight: bold;
-    font-family: 'Opsilion', sans-serif;
-}
-.-green{
-    color: #A3D61E;
-}
 
-
-
-
-.wrapper{
-    max-width: 1700px; 
-    width: 100%;
-    margin: 0 auto; 
-    padding: 0 20px;
-}
-.blocksImg{
-    flex-wrap: wrap;
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-}
-.blockImg{
-    margin-bottom: 5%;
-    width: 500px;
-    height: 722px;
-}
-.img{
-    border-radius:20px;
-
-background-size: cover;
-    width: 100%;
-    height: 100%;
-=======
 body{
     background-color: #B6CBBD;
 }
@@ -73,7 +13,21 @@ background-size: cover;
 }
 .headerLogo{
     width: 80%;
+    
 }
+.headerLogos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content; 
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .headerLogos img {
+    width: 100%;
+    height: auto;
+    display: block; 
+  }
 .headerBlock{
     width: 100%;
     display: flex;
@@ -103,12 +57,18 @@ background-size: cover;
 
 
 .headerSubLogo{
-    margin-right: 2%;}
+    margin-right: 2%;
+}
+
 .wrapper{
-    max-width: 1700px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   max-width: 84%;
     width: 100%;
     margin: 0 auto; 
-    padding: 0 20px;
+    padding: 0 40px;
 }
 .blocksImg{
     flex-wrap: wrap;
@@ -118,8 +78,8 @@ background-size: cover;
 }
 .blockImg{
     margin-bottom: 5%;
-    width: 500px;
-    height: 722px;
+    width: 30%;
+    height: 30%
 }
 .img{
     border-radius:20px;
@@ -163,5 +123,4 @@ background-size: cover;
 }
 .-brown{
     color: rgb(53,40,55);
->>>>>>> ba9fc2e (Add new img)
 }

@@ -1,49 +1,3 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plants of Zombie</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./reset.css">
-
-</head>
-<body>
-    <header class="header">
-        <img src="./img/Logo.svg" alt="">
-        <div class="headerBlock">
-            <img src="./img/Almanac.svg" alt="">
-            <h2 class="headerSubTitle">Альманах садовода – <span class="headerSubTitle -green">список растений и зомби</span></h2>
-        </div>
-    </header>
-    <main>
-        <div class="wrapper">
-            <div class="blocksImg">
-                <div class="blockImg">
-                    <img class="img" src="./img/blocks/Подсолнух.png" alt="">
-                </div>
-                <div class="blockImg">
-                    <img class="img" src="./img/blocks/Подсолнух.png" alt="">
-                </div>
-                <div class="blockImg">
-                    <img class="img" src="./img/blocks/Подсолнух.png" alt="">
-                </div>
-                <div class="blockImg">
-                    <img class="img" src="./img/blocks/Подсолнух.png" alt="">
-                </div>
-                <div class="blockImg">
-                    <img class="img" src="./img/blocks/Подсолнух.png" alt="">
-                </div>
-                <div class="blockImg">
-                    <img class="img" src="./img/blocks/Подсолнух.png" alt="">
-                </div>
-            </div>
-        </div>
-    </main>
-    <script src="./script.js"></script>
-</body>
-=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,7 +11,10 @@
 </head>
 <body>
     <header class="header">
-        <img class="headerLogo"  src="./img/Logo.svg" alt="">
+        <picture class="headerLogos">
+            <source class="headerLogo" srcset="./img/LogoSmall.svg" media="(max-width: 600px)">
+            <img class="headerLogo" src="./img/Logo.svg" alt="Логотип">
+          </picture>
         <div class="headerBlock">
             <img class="headerSubLogo" src="./img/Almanac.svg" alt="">
             <h2 class="headerSubTitle">Альманах садовода – <span class="headerSubTitle -green">список растений и зомби</span></h2>
@@ -100,5 +57,5 @@
     </main>
     <script src="./script.js"></script>
 </body>
->>>>>>> ba9fc2e (Add new img)
+
 </html>
