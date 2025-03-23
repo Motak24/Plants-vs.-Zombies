@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
     font-family: 'Opsilion';
     src: url('./Opsilion.woff2') format('woff2'),
@@ -5,3 +6,20 @@
     font-weight: bold;
     font-style: normal;
   }
+=======
+@font-face {
+    font-family: 'Opsilion';
+    src: url('./Opsilion.woff2') format('woff2'),
+         url('./Opsilon.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+     font-family: 'Playskool';
+     src: url('./Playskool.woff2') format('woff2'),
+          url('./Playskool.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+ }
+>>>>>>> ba9fc2e (Add new img)

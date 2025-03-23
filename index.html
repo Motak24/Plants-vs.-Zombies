@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,4 +43,62 @@
     </main>
     <script src="./script.js"></script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plants of Zombie</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./media.css">
+    <link rel="stylesheet" href="./fonts/font.css">
+</head>
+<body>
+    <header class="header">
+        <img class="headerLogo"  src="./img/Logo.svg" alt="">
+        <div class="headerBlock">
+            <img class="headerSubLogo" src="./img/Almanac.svg" alt="">
+            <h2 class="headerSubTitle">Альманах садовода – <span class="headerSubTitle -green">список растений и зомби</span></h2>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <div class="blockInfo">
+                <p class="blockInfoText">В игре 49 различных видов растений, они служат вам линией обороны между вами и зомби, которых в игре всего 26 видов включая босса. Каждое растение имеет свои особые свойства, силу и слабости, которые могут помочь или помешать ему в борьбе с зомби. Изначально вы начинаете игру в режиме "Приключение" только с одним видом растений, но после победы на большинстве уровней в режиме "Приключение" вы получите в награду новый вид растения.<br/><br/>Кроме того, восемь из 49 растений являются "улучшенными растениями", которые улучшают возможности существующих растений, а одно растение (Имитатор) не является ни обычным, ни улучшенным растением.</p>
+            </div>
+            <div class="blocksImgs" id="blocksImg">
+                
+            
+                <script>
+                    document.addEventListener("DOMContentLoaded", () => {
+                        const folderPath = "./img/cards/"; // Папка с картинками
+                        const images = [   'Горохострел', 'Подсолнух', 'Вишнёвые Бомбы', 'Стена-Орех', 'Картофельные Мины', 'Ледяной Горох', 'Зубастик', 'Скорострел', 'Спорогриб', 'Солнцегриб', 'Дымогриб', 'Уничтожитель Могил', 'Гипногриб', 'Страхогриб', 'Ледогриб', 'Мегагриб', 'Лист Кувшинки', 'Кабачок', 'Тристрел', 'Водоросль', 'Острый Перец', 'Колючки', 'Дерево-Факел', 'Высокий Орех', 'Морегриб', 'Растение-Фонарь', 'Кактус', 'Сдуватель', 'Раздвоенный Горох', 'Звездофрукт', 'Тыква', 'Магнитогриб', 'Капустапульта','Цветочный горшок','Зернопульта','Кофейное Зерно','Чеснок','Зонтичный Лист','Золотая Ромашка','Арбузопульта','Горохомёт','Двойной подсолнух','Мракогриб','Кошкамыши','Морозный Арбуз','Золотой Магнит','Шипокамень','Кукурузная Пушка','Подражатель','Зомби','Флаг Зомби','Зомби с Конусом','Зомби с Ведром','Зомби с Шестом','Зомби с Газетой','Зомби с Дверью','Зомби Футболист','Зомби Танцор','Зомби Поддержки','Зомби с Уткой','Зомби-Водолаз','Зомби на Катке', 'Зомби на Бобслее', 'Зомби-наездник на Дельфине', 'Зомби с Чёртиком из Табакерки', 'Зомби на воздушном шаре', 'Зомби Копатель', 'Зомби-попрыгун', 'Зомби Йети', 'Зомби на Тарзанке', 'Зомби с лестницей', 'Зомби на катапульте', 'Гаргантюа', 'Чертёнок', 'Доктор Эдгар Джордж Зомбосс', 'Крейзтофер Дэвид Блэйзинг III' ]
+
+                        const container = document.getElementById("blocksImg");
+
+                        images.forEach((image) => {
+                        if(image === 'Сдуватель'){
+                            const block = document.createElement("div");
+
+                            block.className = "blockImg";
+                            block.innerHTML = `<img class="img" src="${folderPath}${image}.jpg" alt="">`;
+                            container.appendChild(block);
+                        }else{
+                            const block = document.createElement("div");
+                        block.className = "blockImg";
+                        block.innerHTML = `<img class="img" src="${folderPath}${image}.jpg" alt="">`;
+                        container.appendChild(block);
+                        }
+                       
+                        });
+                    });
+                    </script>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+>>>>>>> ba9fc2e (Add new img)
 </html>
