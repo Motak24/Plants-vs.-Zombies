@@ -103,7 +103,9 @@
 
   }
   @media (max-width: 425px) {
-   
+    .headerSubTitle{
+        font-size: 12px;
+    }
     .blockInfoText{
         font-size: 20px;
        }
